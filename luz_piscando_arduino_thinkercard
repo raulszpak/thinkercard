@@ -1,0 +1,22 @@
+// C++ code
+
+const int ledPin = 11;
+
+void setup() {
+  // Configure o pino do LED como saída
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  // Acenda o LED (pino 11 "Alto")
+  digitalWrite(ledPin, HIGH);
+  
+  // Aguarde 2 segundos
+  delay(2000);
+  
+  // Apague o LED (pino 11 como "Baixo")
+  digitalWrite(ledPin, LOW);
+  
+  // Aguarde mais 2 segundos
+  delay(2000);
+}
